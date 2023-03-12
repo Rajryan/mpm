@@ -1,0 +1,21 @@
+{
+    "name": "mpm/framework",
+    "description": "this is django-like php framework",
+    "type":"library",
+    "require": {
+        "php": ">=8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mpm\\": "src/mpm"
+        }
+    },
+    "authors": [
+        {
+            "name": "raaz maholia",
+            "email": "maholialekhraj46@gmail.com"
+        }
+    ],
+    "minimum-stability":"dev"
+}
